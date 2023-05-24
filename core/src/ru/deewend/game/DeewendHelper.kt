@@ -15,7 +15,7 @@ import kotlin.random.Random
 object DeewendHelper {
     private const val congratulations = "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABD0lEQVR42u1X0RKDIAyDu/z/L7vzYV7tmrQIp3uwDxPEQkjTMtBa29qDhv1n284Yeu9Hm43t732bPe1ctn8A8It6swsp+34XLcp8MUOfn9T2LRgFAtkC1tHTGjETManYhUJfmYCxUvWB+ljtxo5V2mw+RLuP+kr9jIEsND9ZwID4MUbzaPypBrJUZLtWdYQxgirSjAFWK5QmZBr6BasaGM0KVGKpVK5qRSUVkdV1Vk5nasVUKa6k1wiYNAtUjVh2HDMVe+qzk215CCoKvxp7mgWq1kfPWRBoD1sqQnXmW22M+FjGoGLuxRfF/orPf4bgBTD6D3iVTxmAuqzM+LwauB0AvRveZbQSVi8h6v0Vnw+IF/Tpw7facwAAAABJRU5ErkJggg=="
 
-    val deewendHome: String = "${System.getenv("APPDATA")}/.deewend"
+    val deewendHome: String = "./data"
     val pathToCpnTxt = "$deewendHome/textures/current_texture_pack_name.txt"
     var nextLineY: Float = Gdx.graphics.height.toFloat() - 2f + 14f
         get() {
